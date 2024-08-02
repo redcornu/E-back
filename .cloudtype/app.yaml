@@ -1,0 +1,11 @@
+name: node-app
+app: node@16
+options:
+  env:
+    - name: NODE_ENV
+      value: production
+    - name: OPENAI_API_KEY
+      value: your_openai_api_key
+  install: npm ci --production
+  ports: 3000/http
+  start: npm start

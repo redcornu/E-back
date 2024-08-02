@@ -15,8 +15,8 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const corsOptions = {
   origin: [
-    "https://port-0-test-back-lxlts66g89582f3b.sel5.cloudtype.app",
-    "https://web-math-front-backup-lxlts66g89582f3b.sel5.cloudtype.app",
+    "https://port-0-e-back-lxlts66g89582f3b.sel5.cloudtype.app",
+    "https://web-e-front-lxlts66g89582f3b.sel5.cloudtype.app",
     "http://localhost:3000",
     "http://127.0.0.1:5500",
   ],
